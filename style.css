@@ -12,7 +12,7 @@ body {
 
 .main {
     background-color: white;
-    width: min(90%, 500px);
+    width: min(80%, 500px);
     margin: auto;
     margin-top: 10%;
     margin-bottom: 10%;
