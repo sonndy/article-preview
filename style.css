@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(210, 46%, 95%)
+    
+}
+
+.main {
+    background-color: white;
+    width: min(90%, 500px);
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.drawer-img{
+    width: min(100%, 32em);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.content {
+    padding: 2.5em;
+    padding-bottom: 2em;
+}
+
+.info {
+    line-height: 22px;
+    color: hsl(212, 23%, 69%)
+}
+
+h3 {
+    margin-bottom:1em;
+    color: hsl(217, 19%, 35%)
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: hsl(217, 19%, 35%);
+    
+}
+
+.name {
+    font-weight: 700;
+    margin-bottom: 3px;
+    margin-left: -20px;
+}
+
+.date {
+    color: hsl(212, 23%, 69%);
+    margin-left: -20px;
+}
+
+.contacts {
+    display: none;
+}
+
+.new-share {
+    width: 100%;
+    background-color: hsl(217, 19%, 35%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.new-share div {
+    background-color: hsl(212, 23%, 69%);
+    margin-left: auto;
+    margin-right: 30px;
+    border-radius: 50%;
+    
+}
+
+.toggle-share {
+    padding: 10px;
+    color: blue;
+}
+
+.new-share p {
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 2px;
+    letter-spacing: 5px;
+    text-transform:uppercase;
+    color: hsl(212, 23%, 69%);
+}
+.share-icon {
+    margin-left: 5px;
+}
+
+.twitter-icon {
+    margin-left: 20px;
+}
+
+.pinterest-icon {
+    margin-left: 20px;
+}
+
+
+
+
