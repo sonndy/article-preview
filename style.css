@@ -12,7 +12,7 @@ body {
 
 .main {
     background-color: white;
-    width: min(80%, 500px);
+    width: min(90%, 700px);
     margin: auto;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -66,23 +66,35 @@ h3 {
     margin-left: -20px;
 }
 
-.contacts {
-    display: none;
+.sharebutton {
+    /* background-color: red; */
 }
+
+.share {
+    background-color: hsl(210, 46%, 95%);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* .contacts {
+    display: none;
+} */
+
+
 
 .new-share {
     width: 100%;
     background-color: hsl(217, 19%, 35%);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
     align-items: center;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    display: none;
 }
 
 .new-share div {
-    background-color: hsl(212, 23%, 69%);
+    background-color: hsl(214, 17%, 51%);
     margin-left: auto;
     margin-right: 30px;
     border-radius: 50%;
@@ -90,8 +102,7 @@ h3 {
 }
 
 .toggle-share {
-    padding: 10px;
-    color: blue;
+    padding: 8px;
 }
 
 .new-share p {
@@ -114,6 +125,28 @@ h3 {
     margin-left: 20px;
 }
 
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+@media (min-width: 460px) {
+    .container {
+        display: flex;
+    }
+
+    .drawer-img{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
 
 
 
