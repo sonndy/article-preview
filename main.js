@@ -1,40 +1,29 @@
-console.log("Sonndysdfg");
 
 window.addEventListener("DOMContentLoaded", () => {
-    const shareBtn = document.querySelector(".share");
+   let nameDate = document.querySelector(".share");
 
+   nameDate.addEventListener("click", showSocial);
 
-    shareBtn.addEventListener("click", showSocial);
-    
+   function showSocial() {
+       let parentDiv = this.parentElement;
+       let socialOverlay = document.querySelector(".new-share");
+       parentDiv.classList.toggle("hide");
+       socialOverlay.classList.toggle("show");
+   }
 
-    function showSocial(){
-        const parentDiv = this.parentElement;
-        parentDiv.classList.toggle("hide");
+   let socials = document.querySelector(".new-share");
 
-        const mainArticle = parentDiv.parentElement;
-        const socialsOverlay = mainArticle.parentElement.nextElementSibling;
+   socials.addEventListener("click", hideSocial);
 
-        socialsOverlay.classList.toggle("show");
-    }
+   function hideSocial(){
+       let parentDiv = this.parentElement.lastElementChild;
+       let newName = document.querySelector(".contacts");
+       parentDiv.classList.toggle("show");
 
-    const overlay = document.querySelector(".new-share div");
-
-    overlay.addEventListener("click", hideSocial);
-
-    function hideSocial() {
-        const newParentElement = this.parentElement;
-
-
-        newParentElement.classList.remove("show");
-
-        const normalContact = newParentElement.previousElementSibling.lastElementChild.lastElementChild;
-
-        console.log(normalContact);
-
-        normalContact.classList.remove("hide");
-
-        // console.log(newParentElement.previousElementSibling.lastElementChild)
-    }
-
-    
+       newName.classList.toggle("hide")
+    // console.log(newName)
+   }
+  
 })
+
+     
