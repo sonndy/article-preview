@@ -21,7 +21,7 @@ body {
 }
 
 .drawer-img{
-    width: min(100%, 32em);
+    width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -132,7 +132,23 @@ h3 {
 .show {
     display: flex;
 }
-@media (min-width: 460px) {
+
+.triangle {
+    /* width: 25px;
+    height: 25px; */
+    /* background-color: yellow; */
+
+    border-width: 15px;
+    border-top-color: hsl(217, 19%, 35%);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    margin-top: -1px;
+    border-style: solid;
+    display: none;
+}
+@media (min-width: 550px) {
+  
     .container {
         display: flex;
     }
@@ -190,6 +206,25 @@ h3 {
     .toggle-share {
         display: none;
     }
+
+    .triangle {
+        position: absolute;
+        display: block;
+        top: 160px;
+        right: 40px;
+        
+        
+    }
+
+    .btn-color {
+        background-color: hsl(214, 17%, 51%);
+    }
+
+    .filer {
+        filter: sepia(100%) saturate(323%) hue-rotate(174deg) brightness(300%) contrast(100%);
+    }
+
+  
 }
 
 
