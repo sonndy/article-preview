@@ -15,7 +15,10 @@
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/sonndy/article-preview/blob/master/images/Article%20previewcomponentDesktop.png)
+![](https://github.com/sonndy/article-preview/blob/master/images/ArticlepreviewcomponentDesktopactive.png)
+![](https://github.com/sonndy/article-preview/blob/master/images/Articlepreviewcomponentmobile.png)
+![](https://github.com/sonndy/article-preview/blob/master/images/Articlepreviewcomponentmobileactive.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
