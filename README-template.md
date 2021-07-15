@@ -35,6 +35,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS
 - Flexbox
 - Javascript
+- Event Listener
 
 
 ### What I learned
